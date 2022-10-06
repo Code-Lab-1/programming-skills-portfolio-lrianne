@@ -49,6 +49,3 @@ Write a Python program which accepts the radius of a circle from the user and co
 &nbsp;
 &nbsp;
 &nbsp;
-
-# Solutions
-# Exercise 1: 
