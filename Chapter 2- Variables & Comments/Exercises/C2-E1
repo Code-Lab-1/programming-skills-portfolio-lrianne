@@ -1,0 +1,5 @@
+# Solution: Exercise 1 - Variables
+v = "Hello"
+print(v)
+v = "Hello to you too"
+print(v)
