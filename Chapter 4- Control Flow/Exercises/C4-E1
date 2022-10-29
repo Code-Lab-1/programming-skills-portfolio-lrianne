@@ -1,0 +1,13 @@
+#Solution: Exercise 1 - Alien Colors #1
+alien_color = 'green'
+
+##Part 1
+if alien_color == 'green':
+  print("Well Done! You just earned 5 Points!")
+
+##Part 2
+alien_color = "yellow"
+if alien_color == "yellow":
+  print("Congrats! You just earned 5 points")
+if alien_color == 'blue':
+  print("5 Points")
