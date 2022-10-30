@@ -1,7 +1,7 @@
 #Solution: Exercise 4 - Stages of Life
 age = int(input("Write your Age: "))
 
-##Part 1
+##Part 1-6
 if age < 2:
   print("Baby")
 elif age < 4:

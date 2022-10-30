@@ -1,0 +1,29 @@
+#Solution: Exercise 3 - Alien Colors #3
+##Part 1-3: if-elif-else chain
+##Part 4: Version 1: program that runs the if block
+alien_color = "green"
+if alien_color == "green":
+  print("5 Points!")
+elif alien_color == "yellow":
+  print("10 Points!")
+else:
+  print("15 Points!")
+
+##Part 4
+###Version 2: program that runs the elif block
+alien_color = "yellow"
+if alien_color == "green":
+  print("5 Points!")
+elif alien_color == "yellow":
+  print("10 Points!")
+else:
+  print("15 Points!")
+
+###Version 3: program that runs the else block
+alien_color = "purple"
+if alien_color == "green":
+  print("5 Points!")
+elif alien_color == "yellow":
+  print("10 Points!")
+else:
+  print("15 Points!")
