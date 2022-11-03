@@ -1,0 +1,15 @@
+#Solution: Exercise 4: Large Shirts
+size = "Large"
+shirt_text = "I Love Python"
+def make_shirt(size, shirt_text):
+  print("Shirt Size: ", size)
+  print("Message on the Shirt: ", shirt_text)
+
+##Part 1: Default size and shirt_text
+make_shirt(size, shirt_text)
+
+##Part 2: Size Medium with the default shirt_text
+make_shirt("Medium", shirt_text)
+
+##Part 3
+make_shirt("Small", "I still love Python")

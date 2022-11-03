@@ -1,0 +1,12 @@
+#Solution: Exercise 1: Message
+def display_message():
+  print("""\tI'm learning about functions, which is a group of statements within a program 
+  that performs a specific task, making a program easily understandable and organized. 
+  A function only runs when it is called, making it possible for it to be used as many 
+  times as needed.
+  
+  \tI am making use of this knowledge, by creating functions, and getting myself fam-
+  iliar with other ways I can use functions, by incorporating if statements and loops.
+  """)
+
+display_message()
