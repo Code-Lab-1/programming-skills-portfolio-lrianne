@@ -1,0 +1,7 @@
+#Solution: Exercise 1 - Person
+person = {"first_name" : "Ruth", "last_name":"Tanchico", "age":49, "city":"Sharjah"}
+print(person)
+print(person["first_name"])
+print(person["last_name"])
+print(person["age"])
+print(person["city"])
