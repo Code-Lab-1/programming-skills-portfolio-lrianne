@@ -1,11 +1,10 @@
 #Solution: Exercise 5: Cities
-country = "Philippines"
-def describe_city(city, country):
+def describe_city(city, country = "Philippines"):
   print(city, "is a city in the", country)
 
-##Two cities with the default value of country
-describe_city("Iligan", country)
-describe_city("Cebu", country)
+#Two cities with the default value of country
+describe_city("Iligan", )
+describe_city("Cebu", )
 
-##Function without the default value of country
+#Function without the default value of country
 describe_city("Sharjah", "United Arab Emirates")
