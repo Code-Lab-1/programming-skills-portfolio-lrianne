@@ -1,0 +1,14 @@
+#Solution: Exercise 6: Classroom Activities
+name = "Jeth Ianne"
+age = "19"
+contact_number = "0560000000"
+email = "example@gmail.com"
+department =  "Creative Computing"
+level = "Bachelors"
+
+print("Name: ",name)
+print("Age: ",age)
+print("Contact Number: ",contact_number)
+print("Email: ", email)
+print("Department: ",department)
+print("Level: ", level)
