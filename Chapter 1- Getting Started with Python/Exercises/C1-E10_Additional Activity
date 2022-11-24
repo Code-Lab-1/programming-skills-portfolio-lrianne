@@ -1,0 +1,4 @@
+#Solution: Exercise 10 - Additional Activity
+likes1 = "books"
+likes2 = "crocheting"
+print("I like", likes1,"and",likes2)

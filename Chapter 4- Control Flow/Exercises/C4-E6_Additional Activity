@@ -1,0 +1,9 @@
+#Solution: Exercise 6 - Classroom Activity
+#Write a program to check whether a number is positive, negative, or zero
+number = int(input("Write a Number: "))
+if number<0:
+  print("Your number is negative")
+elif number==0:
+  print("Your number is zero")
+else:
+  print("Your number is positive")

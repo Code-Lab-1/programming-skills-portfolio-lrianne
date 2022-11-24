@@ -1,0 +1,6 @@
+#Solution: Exercise 4 - Guest List
+invited = ["Cesar", "Andrea", "John"]
+invites = ", \n\tWe hope this letter finds you well. \nIt would be our great pleasure, if you could come over at the house to share a warm and delicious \ndinner with the family,on this coming Saturday, October 15, 2022, 20:00. \nWe're hoping to receive your positive response on the invite and hoping that you could join us."
+print("Dear", invited[0], invites)
+print("Dear", invited[1], invites)
+print("Dear", invited[2], invites)

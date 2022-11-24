@@ -1,0 +1,6 @@
+#Solution: Exercise 6 - Class Activity
+student = {"Name":"Jeth Tan", "Age":19, "Class":"Year 1", "Gender": "Female", "Location": "Sharjah, United Arab Emirates"}
+print(student)
+#Printing specific keys.
+print(student["Name"])
+print(student["Age"])

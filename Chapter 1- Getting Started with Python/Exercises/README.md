@@ -25,7 +25,6 @@ Twinkle, twinkle, little star,
 
  Write a Python program to get the Python version you are using.
 
-
 &nbsp;
 &nbsp;
 &nbsp;
@@ -37,16 +36,15 @@ Write a Python program to display the current date and time.
 &nbsp;
 &nbsp;
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
-Write three strings in different variables and print the output as one string.
-&nbsp;
-&nbsp;
-&nbsp;
 
+Write three strings in different variables and print the output as one string.
+
+&nbsp;
+&nbsp;
+&nbsp;
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
 Write a Python program which accepts the radius of a circle from the user and compute the area.
-
 &nbsp;
 &nbsp;
 &nbsp;
-

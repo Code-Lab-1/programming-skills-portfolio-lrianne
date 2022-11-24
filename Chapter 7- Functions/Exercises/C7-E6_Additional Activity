@@ -1,0 +1,8 @@
+#Solution: Exercise 6 - Class Activity
+##Calculator
+###Addition
+def addition(x,y):
+  sum = x+y
+  print(sum)
+
+addition(4,5)

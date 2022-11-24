@@ -1,0 +1,8 @@
+#Solution: Exercise 2 - Greetings
+names = ['Jade', 'Gav', 'Dane', 'Joy', 'Khy', 'Sasa']
+print("My good friend's name is", names[0])
+print("My good friend's name is",names[1])
+print("My good friend's name is",names[2])
+print("My good friend's name is",names[3])
+print("My good friend's name is",names[4])
+print("My good friend's name is",names[5])

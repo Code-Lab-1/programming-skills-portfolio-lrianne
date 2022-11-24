@@ -1,0 +1,5 @@
+#Solution: Exercise 9 - Additional Activity
+##Write a Python program that prompts the user for their first name and last name.
+last_name = input("Last Name: ")
+first_name = input("First Name: ")
+print(first_name,"'s", "last name is", last_name)

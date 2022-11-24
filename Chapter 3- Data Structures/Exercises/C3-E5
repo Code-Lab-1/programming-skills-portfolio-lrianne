@@ -1,0 +1,18 @@
+#Solution: Exercise 5 - Change Guest List
+##Part 1
+invited = ["Cesar", "Andrea", "John"]
+print("Unable to join: ", invited[2])
+
+##Part 2
+invited[2] = "Ophelia"
+print("New Invite List: ", invited)
+
+##Part 3
+invites = """, 
+  \tWe hope this letter finds you well. 
+  It would be our great pleasure, if you could come over at the house to share a warm and delicious 
+  dinner with the family,on this coming Saturday, October 15, 2022, 20:00. 
+  We're hoping to receive your positive response on the invite and hoping that you could join us."""
+print("Dear", invited[0], invites)
+print("Dear", invited[1], invites)
+print("Dear", invited[2], invites)

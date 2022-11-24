@@ -1,0 +1,13 @@
+#Solution: Exercise 3 - Glossary 2
+glossary = {"if": "is used for conditional execution. It selects exactly one of the suites by evaluating the expressions one by one until one is found to be true.", 
+            "\nfor":"is used to iterate over the elements of a sequence or other iterable object",
+            "\nwhile": "is used for repeated execution as long as an expression is true",
+            "\nbreak":"terminates the nearest enclosing loop, skipping the optional clause if the loop has one.",
+            "\nDictionary":"stores values in pairs"}
+glossary.update ({"\nVariable":" is a name that represents a value stored in the computer's memory.",
+                 "\nFunction":"group of statements within a program that perform a specific task.",
+                 "\nLists":"is an object that contains multiple data items.",
+                 "\nInput":"is data that the program receives.",
+                 "\nBoolean Variable":"is one of two values: True or False, which are commonly used as flags, which indicate whether specific conditions exist."})
+for key,value in glossary.items(): 
+  print(key, ":", value)

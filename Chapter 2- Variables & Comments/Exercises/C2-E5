@@ -1,0 +1,8 @@
+# Solution: Exercise 5 - USB Shopper
+import math
+usb_stick = 6
+pounds = 50
+usb_bought = pounds/usb_stick
+money_left = pounds % usb_stick
+print("USB Sticks Bought: " + str(math.trunc(usb_bought))) #used math.trunc() to remove the decimal on the output 
+print("Money Left: " + str(money_left))

@@ -1,0 +1,24 @@
+#Solution: Exercise 7: Classroom Activity
+#1. Create 5 subjects variables and take marks from the user.
+subject_1 = input("Enter mark in Chemistry: ")
+subject_2 = input("Enter mark in Math: ")
+subject_3 = input("Enter mark in History: ")
+subject_4 = input("Enter mark in English: ")
+subject_5 = input("Enter mark in Biology: ")
+
+#2. calculate the total marks of the student and store those marks in a variable "mark_obtained"
+mark_obtained = (float(subject_1) + float(subject_2) + float(subject_3) + float(subject_4) + float(subject_5))
+
+#3. total_marks is equal to 500.
+total_marks = 500
+
+#4. calculate average of the marks and store it in variable "average"
+average = int(mark_obtained)/5
+
+#5. calculate percentage of the student and store it in variable "percentage"
+percentage = mark_obtained/total_marks*100
+
+
+#6. Print average and percentage marks of the student.#6. Print avergae and percentage marks of the student.
+print("Average: " + str(average))
+print("Percentage: " + str(percentage))

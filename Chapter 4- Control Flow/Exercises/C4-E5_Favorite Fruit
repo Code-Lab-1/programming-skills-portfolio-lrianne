@@ -1,0 +1,24 @@
+#Solution: Exercise 5 - Favorite Fruit
+##Part 1
+favorite_fruits = ["grapes", "persimmon", "mango"]
+
+##Part 2
+###If Statement 1
+if "grapes" in favorite_fruits:
+  print("Yum! Grapes, your favorite.")
+
+###If Statement 2
+if "banana" in favorite_fruits:
+  print("Banana's are great too.")
+
+###If Statement 3
+if "persimmon" in favorite_fruits:
+  print("Yum! Persimmon, your favorite")
+
+###If Statement 4
+if "apple" in favorite_fruits:
+  print("Apples are good too, they keep the doctors away.")
+
+###If Statement 5
+if "mango" in favorite_fruits:
+  print("Yum! Mango, your favorite.")

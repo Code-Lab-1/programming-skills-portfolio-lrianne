@@ -1,0 +1,10 @@
+# Solution: Exercise 3 - Stripping Names
+name = " Eil Nicee "
+print(name)
+x = name.lstrip(" Eil ")
+y = name.rstrip(" Nicee")
+z = name.strip(" Eil N ")
+print("My cousin's name is", name, ". Her first name is", y, "but we call her by her second name", x, ".", "\nHer nickname is", z)
+
+name = "\n\tEil \n\tNicee \n\tRatunil \n\tDones"
+print("Her full name is: ", name)

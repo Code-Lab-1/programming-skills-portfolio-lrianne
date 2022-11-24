@@ -1,0 +1,18 @@
+#Solution: Exercise 4 - Rivers
+rivers = {"Nile":"Egypt and Sudan.",
+          "Amazon River":"Brazil, Peru and Colombia.",
+          "Yangtze River": "China."}
+
+##Part 1: Use a loop to print a sentence about each river, such as The Nile runs through Egypt.
+for key,value in rivers.items():
+  print("The", key, "runs through", value)
+
+##Part 2: Use a loop to print the name of each river included in the dictionary.
+print("\nThree Major Rivers")
+for key in rivers:
+  print(key)
+
+##Part 3: Use a loop to print the name of each country included in the dictionary.
+print("\nCountries where they Flow")
+for value in rivers.values():
+  print(value)

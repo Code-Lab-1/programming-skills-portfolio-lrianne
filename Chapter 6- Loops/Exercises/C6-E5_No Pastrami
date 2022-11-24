@@ -1,0 +1,21 @@
+#Solution: Exercise 5: No Pastrami
+sandwich_orders = ["Egg Sandwich", "Pastrami Sandwich", "Grilled Cheese Sandwich","Pastrami Sandwich", "Grilled Chicken Sandwich","Pastrami Sandwich"]
+finished_sandwich = []
+i = 0
+
+print("Orders", sandwich_orders)
+print("\nYour Deli has ran out of Pastrami\n")
+
+while i < len(sandwich_orders):
+  print("Your", sandwich_orders[i], "has been made! Enjoy!")
+  i = i + 1
+  if sandwich_orders[i] == "Pastrami Sandwich":
+    sandwich_orders.remove("Pastrami Sandwich")
+  
+print("\nUpdated List of Orders: ", sandwich_orders)
+
+for x in sandwich_orders:
+  finished_sandwich.append(x)
+print("\nList of Finished Sandwiches")
+for x in finished_sandwich:
+  print(x, ": Served!")

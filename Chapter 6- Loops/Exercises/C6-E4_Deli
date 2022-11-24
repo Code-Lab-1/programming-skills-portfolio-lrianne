@@ -1,0 +1,12 @@
+#Solution: Exercise 4: Deli
+sandwich_orders = ["Egg Sandwich", "Grilled Cheese Sandwich", "Grilled Chicken Sandwich"]
+finished_sandwich = []
+
+print("Sandwich Orders: ", sandwich_orders)
+for x in sandwich_orders:
+  print("Your", x, "has been made! Enjoy!")
+  finished_sandwich.append(x)
+
+print("\nFinished Sandwich List: ", finished_sandwich)
+for x in finished_sandwich:
+  print(x, ": Served!")

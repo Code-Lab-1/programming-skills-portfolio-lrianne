@@ -1,0 +1,10 @@
+#Solution: Exercise 10 - Additional Activity
+##Concatenating multiple Dictionaries.
+d1 = {'One':1,'Two':2,'Three':3}
+d2 = {'Four':4,'Five':5}
+d3 = {'Six':6}
+d4 = {}
+d4.update(d1)
+d4.update(d2)
+d4.update(d3)
+print(d4)

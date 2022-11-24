@@ -1,0 +1,10 @@
+#Solution: Exercise 3: T-Shirt
+def make_shirt(size, shirt_text):
+  print("Shirt Size: ", str(size))
+  print("Message on the Shirt: ", str(shirt_text))
+
+##Part 1: Calling the function using Positional Arguments
+make_shirt("Large", "Hello, how may I help you?")
+
+##Part 2: Calling the function using Keyword Arguments
+make_shirt(shirt_text="How are you?", size="Small")

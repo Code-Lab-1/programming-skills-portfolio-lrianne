@@ -1,0 +1,6 @@
+#Solution: Exercise 10 - Additional Activity
+##Program that calculates the difference of two numbers
+inpt1 = int(input("Minuend: "))
+inpt2 = int(input("Subtrahend: "))
+difference = inpt1 - inpt2
+print("The Difference of",inpt1, "and", inpt2, "is", difference)

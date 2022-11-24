@@ -1,0 +1,8 @@
+#Solution: Exercise 8 - Class Activity
+##Function that takes a number from the user, and print its table upto 10th
+def multiply(x):
+  print("The Multiples of", x,":")
+  for count in range(1,11):
+    print(x,'x',count,'=',x*count)
+
+multiply(9)

@@ -1,0 +1,5 @@
+#Solution: Exercise 3 - Your Own List
+transpo = ["bus", "train", "car"]
+print("I would like to have my own", transpo[2], ". But, since I don't have a license, I enjoy getting to places via the", transpo[0], "and", transpo[1], ".")
+print("Someday, in the future I'd like to have a 7-seater", transpo[2], ", specifically, a white Toyota", transpo[2],".")
+print("I enjoy riding the", transpo[0], "and", transpo[1], ", but, ever since the pandemic started, I haven't been able to ride on a", transpo[1],".")

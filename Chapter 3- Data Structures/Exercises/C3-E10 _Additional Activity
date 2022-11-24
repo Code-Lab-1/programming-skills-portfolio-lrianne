@@ -1,0 +1,7 @@
+#Solution: Exercise 10 - Classroom Activity
+##sorting a list
+colors = ["Red", "Green", "Purple", "Brown","Blue","Orange"]
+colors.sort()
+print(colors)
+colors.reverse()
+print(colors)

@@ -1,0 +1,14 @@
+#Solution: Exercise 7 - Class Activity
+##Program that determines whether a triangle is equilateral, isosceles, or not a triangle.
+x = int(input("Side A: "))
+y = int(input("Side B: "))
+z = int(input("Side C: "))
+if x+y>z or x+z>y or y+z>x:
+  if z==x==y:
+    print("Equilateral triangle")
+  elif z==x or z==y or x==y: 
+    print("Isosceles triangle")
+  else :
+    print("Scalene triangle")
+else: 
+  print("It's not a triangle")
