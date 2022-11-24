@@ -1,8 +1,0 @@
-#Solution: Exercise 1: Pizza Toppings
-pizza_topping = input("Choose Your Toppings: ")
-while True:
-  choice = str.lower(input("Choose another topping or Quit: "))
-  if choice == "quit":
-    print("Thank you!","\U0001F600")
-    break
-print("We're adding the toppings on your Pizza! Your Pizza is on its way!")
