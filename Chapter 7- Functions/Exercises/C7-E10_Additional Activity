@@ -1,0 +1,16 @@
+#Solution: Exercise 10 - Additional Activity
+##Function that prints list using a loop
+items = []
+def list_reverse():
+  lst1 = input("Add an item (atleast 3): ")
+  items.append(lst1)
+  while True:
+    lst = str.lower(input("Add Another Item or NO: "))
+    if lst == "no":
+      break
+    items.append (lst)
+
+  items.reverse()
+  print("Items on your list:", items)
+
+list_reverse()

@@ -1,0 +1,10 @@
+#Solution: Exercise 7 - Class Activity
+##Take 4 numbers from user calculate average and percentage of numbers, and print values
+def aver_perc(a,b,c,d):
+  sum = a+b+c+d
+  average = sum / 4
+  print("Average: ", average)
+  percentage = sum/400 * 100
+  print("Percentage: ", percentage)
+
+aver_perc(20,30,40,60)
