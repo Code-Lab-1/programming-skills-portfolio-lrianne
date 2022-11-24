@@ -1,0 +1,9 @@
+#Solution: Exercise 9 - Class Activity
+meals = {"Jane":"Salad", "Grace":"Chicken and Gravy","Stephen":"Steak","Jean":"Chocolate Cake"}
+print(meals)
+#Changing a specific key
+meals["Jean"] = "Cheese Burger"
+print(meals)
+#Adding a new value that is not yet stored in the dictionary
+meals.update({"Bob":"Ice Cream", "Dave":"Chocolate Milkshake"})
+print(meals)
