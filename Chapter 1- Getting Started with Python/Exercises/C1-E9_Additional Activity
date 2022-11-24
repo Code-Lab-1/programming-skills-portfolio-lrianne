@@ -1,0 +1,5 @@
+#Solution: Exercise 9 - Additional Activity
+#Strings
+chapter = "Getting Started with Python"
+print (chapter.upper())
+print (chapter.lower())

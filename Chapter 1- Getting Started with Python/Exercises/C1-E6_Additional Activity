@@ -1,0 +1,3 @@
+#Solution: Exercise 6 - Class Activity
+greetings = input("Hello, What's your name? ")
+print("Hello", greetings)

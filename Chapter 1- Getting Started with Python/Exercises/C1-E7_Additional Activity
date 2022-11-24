@@ -1,0 +1,3 @@
+#Solution: Exercise 7 - Class Activity
+name = 'Bob'
+print(name, "is a very nice name.")
