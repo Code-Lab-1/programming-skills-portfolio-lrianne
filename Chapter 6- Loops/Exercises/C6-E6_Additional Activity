@@ -1,0 +1,9 @@
+#Solution: Exercise 6 - Class Activity
+words = ["Apple","Banana","Car","Dolphin"]
+for word in words :
+  #This loop is fetching word from the list
+  print("The following lines will print each letters of " + word)
+  #This loop is fetching letter for the word
+  for letter in word:
+    print(letter)
+  print("")#This print is used to print a blank line
