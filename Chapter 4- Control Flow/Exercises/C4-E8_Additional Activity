@@ -1,0 +1,5 @@
+#Solution: Exercise 8 - Classroom Activity
+# if Statement
+marks = int(input("Write your Marks(1-100): "))
+if marks > 40:
+  print("Congratulations! You've passed your Subject.")

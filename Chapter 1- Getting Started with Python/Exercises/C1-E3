@@ -1,0 +1,11 @@
+#Solution: Exercise 3
+#Version 1
+date = "September 24, 2022, Saturday"
+time = "12:36 pm"
+print(date)
+print(time)
+
+#Version 2
+from datetime import datetime
+date = datetime.today()
+print(date)

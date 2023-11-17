@@ -1,0 +1,5 @@
+#Solution: Exercise 7 - Class Activity
+##Showing the key and values of a dictionary
+grocery = {"Eggs":24, "Milk":3, "Rice":1, "Cheese": 2, "Water": 2}
+print(grocery.keys())
+print(grocery.values())

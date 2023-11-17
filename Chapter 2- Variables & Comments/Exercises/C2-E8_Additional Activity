@@ -1,0 +1,6 @@
+#Solution: Exercise 8: Classroom Activity
+##Program that takes user input and outputs its sum.
+x = input("Addend: ")
+y = input("Addend: ")
+sum = float(x) + float(y) 
+print("Sum: " + str(sum))

@@ -1,0 +1,5 @@
+#Solution: Exercise 9 - Classroom Activity
+##concatenating lists
+fruits = ["Apple", "Tomato", "Potato", "Bell Pepper"]
+new = ["Sugar Canes", "Turnips", "Orange", "Grapes", "Banana"]
+print(fruits + new)

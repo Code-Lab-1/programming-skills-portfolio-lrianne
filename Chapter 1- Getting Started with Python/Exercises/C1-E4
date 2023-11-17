@@ -1,0 +1,5 @@
+#Solution: Exercise 4
+first = "Hello!"
+second = " Have a great day!"
+third = " Bye."
+print(first + second + third)

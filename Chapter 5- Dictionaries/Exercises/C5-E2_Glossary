@@ -1,0 +1,12 @@
+#Solution: Exercise 2 - Glossary
+glossary = {"if": "is used for conditional execution. It selects exactly one of the suites by evaluating the expressions one by one until one is found to be true.", 
+            "for":"is used to iterate over the elements of a sequence or other iterable object",
+            "while": "is used for repeated execution as long as an expression is true",
+            "break":"terminates the nearest enclosing loop, skipping the optional clause if the loop has one.",
+            "Dictionary":"stores values in pairs"}
+
+print('if', ":", glossary['if'])
+print('\nfor', ':', glossary['for'])
+print('\nwhile', ':', glossary['while'])
+print('\nbreak', ':', glossary['break'])
+print('\nDictionary', ':', glossary['Dictionary'])

@@ -1,0 +1,11 @@
+#Solution: Exercise 5 - Pets
+pet1 = {"\nType of Animal":"Dog",
+        "Owner's Name":"Bart"}
+pet2 = {"\nType of Animal":"Cat",
+        "Owner's Name":"Poppy"}
+pet3 = {"\nType of Animal":"Bird",
+        "Owner's Name":"Penny"}
+pets = [pet1,pet2,pet3]
+for dic in pets:
+  for key in dic:
+    print(key,":", dic[key])

@@ -1,0 +1,4 @@
+#Solution: Exercise 3: Infinity
+x = "Infinity"
+while True:
+  print(x)

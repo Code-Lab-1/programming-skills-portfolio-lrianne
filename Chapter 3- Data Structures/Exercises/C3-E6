@@ -1,0 +1,35 @@
+#Solution: Exercise 6 - Shrinking Guest List
+##Part 1
+invited = ["Cesar", "Andrea", "John"]
+invited[2] = "Ophelia"
+print("New Invite List: ", invited)
+update = """, 
+  \tDue to unforeseen situations, we are only able to accomodate a small number of guests for dinner. 
+  We are sorry to inform you, that we are minimizing the number of guests to 2, and therefore we have 
+  to unfortunately, cancel our invite. We are hoping for your kind understanding, and we apologize for 
+  the sudden cancellation.
+  \tWe are aware that you have already adjusted your schedule to be able to be with us on the aforementioned date
+  and time. We have arranged a separate day for us to be able to bond over dinner, and we'll shortly
+  send you this new invite, we hope you can still make time for us then. Again, we are so sorry for 
+  cancelling in the last minute."""
+
+##Part 2
+invited.pop(1)
+print ("New Guest List: ", invited)
+print("Dear Andrea" , update)
+
+##Part 3
+invites2 = ''', 
+  \tAlthough we had to minimize the number of guests invited for this coming October 15, we are still very 
+  much anticipating your presence on that night, we have made some changes on the guest list, but are pleased to inform you 
+  that we'd still love to have you there with us. 
+  \tWe can't wait to have you over for dinner.'''
+print("Dear",invited[1], invites2)
+print("Dear",invited[0], invites2)
+
+##Part 4
+print(invited)
+del(invited[1])
+print(invited)
+del(invited[0])
+print(invited)

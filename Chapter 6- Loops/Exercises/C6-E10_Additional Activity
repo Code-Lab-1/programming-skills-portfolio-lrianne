@@ -1,0 +1,9 @@
+#Solution: Exercise 10 - Class Activity
+## Program to find the sum of all numbers stored in a list
+numbers = [5,2,6,2,0,1,7]
+sum = 0
+
+for val in numbers:
+  sum = sum+val
+
+print("The sum is", sum)

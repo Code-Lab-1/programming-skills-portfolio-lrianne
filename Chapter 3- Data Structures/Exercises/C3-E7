@@ -1,0 +1,32 @@
+#Solution: Exercise 7 - Seeing the World
+##Part 1
+places = ['Sweden', 'Korea', 'Japan', 'Ireland', 'Thailand']
+print(places)
+
+##Part 2
+print("Sorted from A-Z: ", sorted(places))
+
+##Part 3
+print("Original: ", places)
+
+##Part 4 
+print("Sorted from Z-A:", sorted(places,reverse=True))
+
+##Part 5
+print("Original: ", places)
+
+##Part 6
+places.reverse()
+print("Changing the order of the list (Part 1): ", places)
+
+##Part 7
+places.reverse()
+print("Changing the order of the list (Part 2): ", places)
+
+##Part 8
+places.sort()
+print("In Alphabetical order: ", places)
+
+##Part 9
+places.sort(reverse=True)
+print("In reverse: ", places)
